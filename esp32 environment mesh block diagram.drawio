@@ -17,10 +17,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zMycA0VOthBbJL3eI093-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ESP32&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="570" y="150" as="geometry" />
+          <mxGeometry height="60" width="120" x="380" y="270" as="geometry" />
         </mxCell>
         <mxCell id="zMycA0VOthBbJL3eI093-2" parent="1" style="whiteSpace=wrap;html=1;" value="T6793: co2 sensor" vertex="1">
           <mxGeometry height="60" width="120" x="120" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="zMycA0VOthBbJL3eI093-3" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;LED switch (reset button)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="zMycA0VOthBbJL3eI093-4" parent="1" style="whiteSpace=wrap;html=1;" value="Micro-USB-B: programming and UART" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
