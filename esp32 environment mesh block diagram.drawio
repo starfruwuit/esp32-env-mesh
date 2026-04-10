@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="_i8NTfOXJvM1Dzx959bm">
+    <mxGraphModel dx="1366" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XwZTp1tfvwJoGVxlAs1_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;DC barrel jack: Unregulated 12V input voltage&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XwZTp1tfvwJoGVxlAs1_-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;LM2576: 12V -&amp;gt; regulated 5V&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XwZTp1tfvwJoGVxlAs1_-3" edge="1" parent="1" source="XwZTp1tfvwJoGVxlAs1_-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XwZTp1tfvwJoGVxlAs1_-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMycA0VOthBbJL3eI093-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;ESP32&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="zMycA0VOthBbJL3eI093-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="T6793: co2 sensor" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="zMycA0VOthBbJL3eI093-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;LED switch (reset button)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="zMycA0VOthBbJL3eI093-4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Micro-USB-B: programming and UART" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zMycA0VOthBbJL3eI093-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;BME 280 breakout board: temperature, humidity, and pressure sensor&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="zMycA0VOthBbJL3eI093-7" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="heartbeat LED" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="zMycA0VOthBbJL3eI093-8" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="communication with central Pi (WiFi)" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
