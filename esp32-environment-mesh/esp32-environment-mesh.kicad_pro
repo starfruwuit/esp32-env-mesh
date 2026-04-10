@@ -245,8 +245,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "custom-parts"
+    ],
+    "pinned_symbol_libs": [
+      "custom-parts"
+    ]
   },
   "meta": {
     "filename": "esp32-environment-mesh.kicad_pro",
